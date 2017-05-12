@@ -1,0 +1,40 @@
+{
+  "name": "is-bpg",
+  "version": "0.0.0",
+  "description": "Check if a Buffer/Uint8Array is a BPG image",
+  "license": "MIT",
+  "repository": "thammin/is-bpg",
+  "author": "Paul Young <thammin@live.co.uk> (https://github.com/thammin)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bpg",
+    "better",
+    "portable",
+    "graphics",
+    "image",
+    "img",
+    "pic",
+    "picture",
+    "photo",
+    "type",
+    "detect",
+    "check",
+    "is",
+    "exif",
+    "binary",
+    "buffer",
+    "uint8array"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "read-chunk": "^1.0.0"
+  }
+}
